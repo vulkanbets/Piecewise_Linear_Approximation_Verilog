@@ -1,0 +1,7 @@
+piecewise_linear_approximation.xpr
+testbench_PLA_behav.wcfg
+/piecewise_linear_approximation.cache/
+/piecewise_linear_approximation.hw/
+/piecewise_linear_approximation.ip_user_files/
+/piecewise_linear_approximation.sim/
+/piecewise_linear_approximation.runs/

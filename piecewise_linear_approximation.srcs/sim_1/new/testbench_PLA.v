@@ -8,10 +8,12 @@ module testbench_PLA;
     wire [31 : 0] out_a = DUT.LUT.out_a;
     wire [31 : 0] out_b = DUT.LUT.out_b;
     wire [5 : 0] addr = DUT.addr;
+    wire signed [31 : 0] mult_out = DUT.mult_out;
+    wire signed [31 : 0] answer = DUT.answer;
     // Instantiate DUT
     top DUT();
     
     always #6.9 x <= x + 32'h00a00000;
-    assign DUT.dec.x = x;
+    assign DUT.x = x;
     
 endmodule
